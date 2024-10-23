@@ -1,2 +1,5 @@
 databaseChangeLog:
   - include:
+      file: db/changelog/changeset/blog_V0001_initial.sql
+  - include:
+      file: db/changelog/changeset/blog_V0002_addFK.sql
